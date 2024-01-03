@@ -56,7 +56,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'hello-web'
+          app-name: 'web-meng'
           slot-name: 'web-meng'
           package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_20A2ADAF63CD45A3B19BE0A3E44948B2 }}
